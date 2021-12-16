@@ -1,0 +1,13 @@
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Colony Manager</li>
+    </mods>
+	<match Class="PatchOperationReplace">
+      <xpath>/Defs/WorkTypeDef[defName="Managing"]/naturalPriority</xpath>
+	  <value>
+	    <naturalPriority>105</naturalPriority>
+	  </value>
+	</match>
+  </Operation>
+</Patch>
