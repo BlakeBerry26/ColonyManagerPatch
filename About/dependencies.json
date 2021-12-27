@@ -1,0 +1,13 @@
+{ 
+    "depends": [
+        {
+            "id": "Fluffy.ColonyManager",
+            "name": "Colony Manager",
+            "steam": 715565262,
+            "url": "https://github.com/fluffy-mods/ColonyManager"
+        }
+    ],
+    "after": [
+        "Fluffy.ColonyManager"
+    ]
+}
